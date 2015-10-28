@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Pick-A-Color</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="rgb_hex_code">rgb hex code</string>
+    <string name="color_name">color_name</string>
+    <string name="config_sort_order">Sorting Preferences</string>
+    <string name="hue_preferences">Hue Preferences</string>
+    <string name="sat_preferences">Saturation Preferences</string>
+    <string name="val_preferences">Value Preferences</string>
+    <string name="swatch_num">Number of swatches:</string>
+    <string name="central_hue">Central hue:</string>
+
+
+</resources>
