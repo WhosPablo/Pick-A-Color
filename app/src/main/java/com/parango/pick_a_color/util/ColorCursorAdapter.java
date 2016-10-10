@@ -3,7 +3,6 @@ package com.parango.pick_a_color.util;
 import android.content.Context;
 import android.database.Cursor;
 import android.graphics.Color;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -108,7 +107,7 @@ public class ColorCursorAdapter extends CursorAdapter {
 
     private ViewHolder updateViewHolderValues(View view, Cursor cursor) {
         ViewHolder viewHolder = (ViewHolder) view.getTag();
-        Log.d("AdapterValues:", cursor.getString( NAME ) + "  " + cursor.getString( HEX ));
+        //Log.d("AdapterValues:", cursor.getString( NAME ) + "  " + cursor.getString( HEX ));
 
         viewHolder.name.setText( cursor.getString( NAME ) );
 

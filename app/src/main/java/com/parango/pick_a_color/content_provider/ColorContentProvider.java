@@ -7,7 +7,6 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteQueryBuilder;
 import android.net.Uri;
-import android.util.Log;
 
 import com.parango.pick_a_color.db.ColorDBHelper;
 import com.parango.pick_a_color.db.ColorTable;
@@ -69,9 +68,9 @@ public class ColorContentProvider extends ContentProvider {
         for(String a: selectionArgs ){
             print = print+ " " + a;
         }
-        Log.d("ContentProvider", selection);
+        //Log.d("ContentProvider", selection);
 
-        Log.d("ContentProvider", print);
+        //Log.d("ContentProvider", print);
 
         // Using SQLiteQueryBuilder instead of query() method
         SQLiteQueryBuilder queryBuilder = new SQLiteQueryBuilder();
